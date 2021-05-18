@@ -17,7 +17,7 @@ const Login = ({ handleOnChange, email, pass, handleOnSubmit, formSwitcher }) =>
                     <Col>
                         <h1 className="text-info text-center headline">Client Login</h1>
                         <hr />
-                        <Form autoComplete="off">
+                        <Form autoComplete="off" onSubmit={handleOnSubmit}>
                             <Form.Group>
                                 <Form.Label>Email Address</Form.Label>
                                 <Form.Control type="email"
@@ -36,7 +36,7 @@ const Login = ({ handleOnChange, email, pass, handleOnSubmit, formSwitcher }) =>
                                     placeholder="password"
                                     required />
                             </Form.Group>
-                            <Button type="submit" onClick={handleOnSubmit}>Login</Button>
+                            <Button type="submit">Login</Button>
                         </Form>
                         <hr />
                     </Col>
