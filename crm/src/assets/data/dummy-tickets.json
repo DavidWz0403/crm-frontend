@@ -1,21 +1,25 @@
 [
     {
         "id": 1,
+        "subject": "Email certificate",
         "status": "Client response pending",
         "addedAt": "2021-05-18"
     },
     {
         "id": 2,
+        "subject": "issue with Email certificate",
         "status": "Client response pending",
         "addedAt": "2021-05-18"
     },
     {
         "id": 3,
+        "subject": "issue app crashing",
         "status": "Client response pending",
         "addedAt": "2021-05-18"
     },
     {
         "id": 4,
+        "subject": "issue with SSL certificate",
         "status": "Client response pending",
         "addedAt": "2021-05-18"
     }
