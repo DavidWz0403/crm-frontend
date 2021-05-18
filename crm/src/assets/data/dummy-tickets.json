@@ -3,7 +3,24 @@
         "id": 1,
         "subject": "Email certificate",
         "status": "Client response pending",
-        "addedAt": "2021-05-18"
+        "addedAt": "2021-05-18",
+        "history": [
+            {
+                "date": "20-10-10",
+                "message": "sssssss",
+                "messageBy": "client"
+            },
+            {
+                "date": "20-10-10",
+                "message": "sssssss",
+                "messageBy": "operator"
+            },
+            {
+                "date": "20-10-10",
+                "message": "sssssss",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id": 2,
